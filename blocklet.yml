@@ -1,11 +1,12 @@
-name: component-call-receiver
-title: component-call-receiver
-description: A Blocklet Api blocklet
+did: z2qaJkRAZMmiJojU3oD9kEFZoo2GjjqkYhAu6
+name: z2qaJkRAZMmiJojU3oD9kEFZoo2GjjqkYhAu6
+title: Component Call Sender
+version: 1.0.1
+description: This blocklet acts as sender for testing component.call
 keywords:
   - blocklet
   - react
 group: dapp
-did: z2qa5KQyqGsQSDkuEW8Do25caboQbAXt4aWS7
 main: api/index.js
 author:
   name: linchen
@@ -14,7 +15,6 @@ repository:
   type: git
   url: git+https://github.com/blocklet/create-blocklet.git
 specVersion: 1.1.1
-version: 0.1.0
 logo: logo.png
 files:
   - logo.png
