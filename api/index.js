@@ -2,6 +2,8 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const { Component } = require('@blocklet/sdk');
 
+const { version } = require('../package.json');
+
 const app = express();
 
 const port = process.env.BLOCKLET_PORT || process.env.PORT || 3030;
@@ -29,10 +31,13 @@ app.get('/', (req, res) => {
   <span style="display:inline-block;padding:8px 24px;background:#1dc1c7;color:#fff;">Component Call Sender</span>
 </h1>
 <div style="margin: 24px">
-  Component Call Sender should be used with Component Call Receiver.
+  Component Call Sender should be used with <a href="https://dev.store.blocklet.dev/blocklets/z2qa5KQyqGsQSDkuEW8Do25caboQbAXt4aWS7">Component Call Receiver</a>.
 </div>
 <div>
   <a href="api/call">/api/call</a>
+</div>
+<div style="margin-top: 48px">
+  Version: ${version}
 </div>
 </div>
   `);

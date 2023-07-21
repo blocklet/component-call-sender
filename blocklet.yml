@@ -1,7 +1,7 @@
 did: z2qa7yRLBDiaU3BaA3obSLAUK7bnrZmCArqvL
 name: z2qa7yRLBDiaU3BaA3obSLAUK7bnrZmCArqvL
 title: Component Call Sender
-version: 1.0.2
+version: 1.0.3
 description: This blocklet acts as sender for testing component.call
 keywords:
   - blocklet
@@ -55,4 +55,9 @@ capabilities:
   component: true
   navigation: true
 screenshots: []
-components: []
+components:
+  - mountPoint: /component-call-receiver
+    source:
+      store: https://dev.store.blocklet.dev
+      name: z2qa5KQyqGsQSDkuEW8Do25caboQbAXt4aWS7
+      version: latest
