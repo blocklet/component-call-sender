@@ -1,6 +1,6 @@
 {
   "name": "component-call-sender-demo",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "api/index.js",
   "scripts": {

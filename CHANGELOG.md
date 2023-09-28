@@ -1,3 +1,6 @@
+## 1.0.4 (2023-9-28)
+
+- update blocklet.yml
 ## 1.0.3 (2023-7-21)
 
 - update deps
